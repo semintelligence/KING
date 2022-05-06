@@ -131,20 +131,20 @@ The triples formed where tested against competency questions with the help of SP
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.
 
 1. List all court officials that come under 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 1](/query1.JPG?raw=true "Query 1")
-![Output 1](/output1.JPG?raw=true)
+![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.JPG "Query 1")
+![Output 1](https://github.com/semintelligence/KING/blob/main/output/output1.JPG)
 
 2. What is the case number of case 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 2](/query2.JPG?raw=true "Query 2")
-![Output 2](/output2.JPG?raw=true)
+![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.JPG "Query 2")
+![Output 2](https://github.com/semintelligence/KING/blob/main/output/output2.JPG)
 
 3. Who is the Petitioner of 'K.T. Varghese & Ors VS. State of Kerala & Ors.'?
-![Query 3](/query3.JPG?raw=true "Query 3")
-![Output 3](/output3.JPG?raw=true)
+![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.JPG "Query 3")
+![Output 3](https://github.com/semintelligence/KING/blob/main/output/output3.JPG)
 
 4. List all the parties that come under case 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 4](/query4.JPG?raw=true "Query 4")
-![Output 4](/output4.JPG?raw=true )
+![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.JPG "Query 4")
+![Output 4](https://github.com/semintelligence/KING/blob/main/output/output4.JPG)
 ## Acknowledgements
 
  This work is supported by the IHUB-ANUBHUTI-IIITD FOUNDATION set up under the NM-ICPS scheme of the Department of Science and Technology, India.

@@ -125,7 +125,7 @@ An example of the manualy constructed RDf(.ttl) file and knowledge graph visuali
 .
 ```
 
-![Knowledge Graph](/kg.jpg?raw=true "Knowledge Graph visualized through GraphDB")
+![Knowledge Graph](https://github.com/semintelligence/KING/blob/main/kg%20ttl%20file/kg.jpg "Knowledge Graph visualized through GraphDB")
 ## Competency Questions and SPARQL Query
 The triples formed where tested against competency questions with the help of SPARQL queries.
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.

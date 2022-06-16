@@ -30,13 +30,13 @@ An Indian Court Decision Annotated Corpus and KG Construction 7
 format, namely BILOU ((B-Beginning, I-Internal, L-Last, O-outside,U-Unit),
 IOB (I-Inside, O-Outside, B-Beginning) and IOBES (I-Inside, O-Outside, B-
 Beginning, E-End, S-Single). The dataset is published using FigShare with CC by 4.0 licence with the DOI:
-https://doi.org/10.6084/m9.figshare.19719088.v1
+https://doi.org/10.6084/m9.figshare.19719088
 ## Knowledge Graph Construction
 The two major steps for the construction of the knowledge graph are Named
 Entity Recognition (NER) and Relation Extraction (RE). Various legal entities
 identified from the corpus by referring to the [NyOn](https://github.com/semintelligence/NyOn) Ontology are combined together with the relations extracted for the construction of the Knowledge Graph
 (KG). 
-### Natural Entity Recognition
+### Named Entity Recognition
 The entity extraction is substantially carried out with the help of regular
 expressions and triggering target words. Examples of rules used to extract the entities "JURISDICTION" and "LOCATION" are given below.
 ```python

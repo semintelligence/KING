@@ -115,12 +115,11 @@ The generated RDF corresponding to all the 50 documents is given [here](https://
 The triples formed where tested against competency questions with the help of SPARQL queries.
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.
 
-1. List all the cases from the month of September.
-.
-![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")
+1. List all the cases from the month of September.<br />
+![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")<br />
 ![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)
 
-2. List all the cases filed in the year 1996.
+2. List all the cases filed in the year 1996.<br />
 ![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")
 ![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)
 

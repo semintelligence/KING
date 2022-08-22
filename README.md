@@ -117,19 +117,19 @@ Screenshots of the competency questions, corresponnding SPARQL queries and outpu
 
 1. List all the cases from the month of September.<br />
 ![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")<br />
-![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)
+![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)<br />
 
 2. List all the cases filed in the year 1996.<br />
-![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")
-![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)
+![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")<br />
+![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)<br />
 
-3. List all the cases under case type 'criminal'.
-![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.PNG "Query 3")
-![Output 3](https://github.com/semintelligence/KING/blob/main/query/output/query3_output.PNG)
+3. List all the cases under case type 'criminal'.<br />
+![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.PNG "Query 3")<br />
+![Output 3](https://github.com/semintelligence/KING/blob/main/query/output/query3_output.PNG)<br />
 
-4. List all the cases with Vivian Bose/V. Bose as a judge.
-![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.PNG "Query 4")
-![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)
+4. List all the cases with Vivian Bose/V. Bose as a judge.<br />
+![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.PNG "Query 4")<br />
+![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)<br />
 ## Acknowledgements
 
  This work is supported by the IHUB-ANUBHUTI-IIITD FOUNDATION set up under the NM-ICPS scheme of the Department of Science and Technology, India.

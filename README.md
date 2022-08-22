@@ -120,7 +120,9 @@ Screenshots of the competency questions, corresponnding SPARQL queries and outpu
 ![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)<br />
 
 2. List all the cases filed in the year 1996.<br />
+Query:
 ![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")<br />
+Output:
 ![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)<br />
 
 3. List all the cases under case type 'criminal'.<br />

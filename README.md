@@ -30,7 +30,7 @@ An Indian Court Decision Annotated Corpus and KG Construction 7
 format, namely BILOU ((B-Beginning, I-Internal, L-Last, O-outside,U-Unit),
 IOB (I-Inside, O-Outside, B-Beginning) and IOBES (I-Inside, O-Outside, B-
 Beginning, E-End, S-Single). The dataset is published using FigShare with CC by 4.0 licence with the DOI:
-https://doi.org/10.6084/m9.figshare.19719088
+https://doi.org/10.6084/m9.figshare.19719088.v4
 
 To corroborate the domain-specific tags, two semantic classes were defined; namely, coarse-grained
 class and fine-grained class, each consisting of 10 and 30 attributes respectively.

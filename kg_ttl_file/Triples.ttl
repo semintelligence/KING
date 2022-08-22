@@ -1,0 +1,1326 @@
+@prefix case: <https://w3id.org/def/NyOn#Case> .
+@prefix nyon: <https://w3id.org/def/NyOn#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix co: <https://w3id.org/def/NyOn#Court_Official> .
+@prefix schema: <https://schema.org/> .
+@prefix party: <https://w3id.org/def/NyOn#Party>	.
+@prefix court: <https://w3id.org/def/NyOn#Courts>	.
+@prefix decision: <https://w3id.org/def/NyOn#Court_Decision>	. 
+@prefix juri:<https://w3id.org/def/NyOn#Jurisdiction> . 
+
+court:sc rdfs:type court:Apex_Court; 
+ rdfs:label "Supreme Court of India"@en .
+decision:acc rdfs:type decision:Judgement; 
+ rdfs:label "Accepted"@en .
+decision:rej rdfs:type decision:Judgement; 
+ rdfs:label "Disposed"@en .
+ juri:appellant  rdfs:type juri:Appellant_Jurisdiction; 
+ rdfs:label "Apppellant Jurisdiction"@en .
+co:Syed_Shah_Mohammed_Quadri rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "Syed Shah Mohammed Quadri"@en .
+co:SN_Phukan rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.N. Phukan"@en .
+co:THOMAS_KT__MM_PUNCHHI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "THOMAS K.T.  M.M. PUNCHHI"@en .
+co:JS_VERMA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "J.S VERMA"@en .
+co:KS_PARIPOORNAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K.S. PARIPOORNAN"@en .
+co:MB_SHAH rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "M.B. SHAH"@en .
+co:RP_SETHI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "R.P. SETHI"@en .
+co: rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label ""@en .
+co:JL_KAPUR rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "J.L. KAPUR"@en .
+co:PB_GAJENDRAGADKAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "P.B. GAJENDRAGADKAR"@en .
+co:TL_VENKATARAMA_AIYYAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "T.L. VENKATARAMA AIYYAR"@en .
+co:SUJATA_V_MANOHAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "SUJATA V. MANOHAR"@en .
+co:GB_PATTANAIK rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "G.B. PATTANAIK."@en .
+co:RS_BACHAWAT rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "R.S. BACHAWAT"@en .
+co:KN_WANCHOO rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K.N. WANCHOO"@en .
+co:JC_SHAH rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "J.C. SHAH"@en .
+co:ASHOK_BHAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "ASHOK BHAN"@en .
+co:DK_JAIN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "D.K. JAIN"@en .
+co:DR_ARIJIT_PASAYAT rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "DR. ARIJIT PASAYAT"@en .
+co:P_SATHASIVAM rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "P. SATHASIVAM"@en .
+co:Doraiswamy_Raju_Babu rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "Doraiswamy Raju Babu"@en .
+co:J_S_VERMA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "J. S. VERMA"@en .
+co:B_N_KIRPAL rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "B. N. KIRPAL"@en .
+co:MC_MAHAJAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "M.C. MAHAJAN"@en .
+co:SR_DAS rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.R. DAS"@en .
+co:G_HASAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "G. HASAN"@en .
+co:NH_BHAGWATI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "N.H. BHAGWATI"@en .
+co:TLV_AIYYAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "T.L.V. AIYYAR"@en .
+co:V_BOSE rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "V. BOSE"@en .
+co:B_JAGANNADHADAS rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "B. JAGANNADHADAS"@en .
+co:BP_SINHA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "B.P. SINHA"@en .
+co:KULDIP_SINGH rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "KULDIP SINGH"@en .
+co:BL_HANSARIA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "B.L HANSARIA"@en .
+co:AS__THOMAS_KT__ANAND rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "A.S.  THOMAS K.T.  ANAND"@en .
+co:Dr_ARIJIT_PASAYAT rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "Dr. ARIJIT PASAYAT"@en .
+co:SH_KAPADIA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.H. KAPADIA"@en .
+co:VIVIAN_BOSE rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "VIVIAN BOSE"@en .
+co:GHULAM_HASAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "GHULAM HASAN"@en .
+co:K_RAMASWAMY rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "K. RAMASWAMY"@en .
+co:S_SAGHIR_AHMAD rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S. SAGHIR AHMAD"@en .
+co:SUDHI_RANJAN_DAS rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "SUDHI RANJAN DAS"@en .
+co:K_VENKATASWAMI_K__RAMASWAMY rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K. VENKATASWAMI K.  RAMASWAMY"@en .
+co:AKMATHUR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "A.K.MATHUR"@en .
+co:MARKANDEY_KATJU rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "MARKANDEY KATJU"@en .
+co:KT_THOMAS_S_RAJENDRA_BABU rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K.T. THOMAS S. RAJENDRA BABU"@en .
+co:MRS_SUJATA_V_MANOHAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "MRS. SUJATA V. MANOHAR"@en .
+co:GB_PATTANAIK rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "G.B. PATTANAIK"@en .
+co:NANAVATI_GT__SC__AGRAWAL rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "NANAVATI G.T.  S.C.  AGRAWAL"@en .
+co:M_HIDAYATULLAH rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "M. HIDAYATULLAH"@en .
+co:SYED_SHAH_MOHAMMED_QUADRI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "SYED SHAH MOHAMMED QUADRI"@en .
+co:SN_PHUKAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.N. PHUKAN"@en .
+co:SM_SIKRI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.M. SIKRI"@en .
+co:JM_SHELAT rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "J.M. SHELAT"@en .
+co:LOKESHWAR_SINGH_PANTA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "LOKESHWAR SINGH PANTA"@en .
+co:TARUN_CHATTERJEE rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "TARUN CHATTERJEE"@en .
+co:K_GB_PATTANAIK__RAMASWAMY rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K. G.B. PATTANAIK  RAMASWAMY"@en .
+co:GN__HANSARIA_BL__RAY rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "G.N.  HANSARIA B.L.  RAY"@en .
+co:SJ_IMAM rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.J. IMAM"@en .
+co:NC_AIYAR rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "N.C. AIYAR"@en .
+co:SYED_JAFFER_IMAM rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "SYED JAFFER IMAM"@en .
+co:SP_BHARUCHA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.P. BHARUCHA"@en .
+co:SC_SEN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.C. SEN"@en .
+co:S__MUKHERJEE_MK__MOHAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.  MUKHERJEE M.K.  MOHAN"@en .
+co:MISRA_RANGNATH_K_RAMASWAMY rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "MISRA RANGNATH K. RAMASWAMY"@en .
+co:KULDIP_SINGH__HANSARIA_BL__MAJMUDAR_SB rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "KULDIP SINGH  HANSARIA B.L.  MAJMUDAR S.B."@en .
+co:HANS_RAJ_KHANNA rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "HANS RAJ KHANNA"@en .
+co:JASWANT_SINGH rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "JASWANT SINGH"@en .
+co:RM__SAHAI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "R.M.  SAHAI"@en .
+co:SR__PANDIAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.R.  PANDIAN"@en .
+co:K_HANSARIA_BL__RAMASWAMY rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "K. HANSARIA B.L.  RAMASWAMY"@en .
+co:MISRA_RANGNATH_GL__OZA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "MISRA RANGNATH G.L.  OZA"@en .
+co:S__MOHAN rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "S.  MOHAN"@en .
+co:MN_VENKATACHALLIAH rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "M.N. VENKATACHALLIAH"@en .
+co:MH_KANIA rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "M.H. KANIA"@en .
+co:JAGDISH_SARAN__VERMA rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "JAGDISH SARAN  VERMA"@en .
+co:V__II_RAMASWAMI rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "V.  II RAMASWAMI"@en .
+co:ES__VENKATARAMIAH rdfs:type co:Judge; 
+nyon:works_in court:SupremeCourt; 
+a foaf:Person ;
+ 	rdfs:label "E.S.  VENKATARAMIAH"@en .
+co:THOMAS_KT_J rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "THOMAS K.T. (J)"@en .
+co:AS_J_ANAND rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "A.S. (J) ANAND"@en .
+co:M_PATANJALI_CJ_SASTRI rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "M. PATANJALI (CJ) SASTRI"@en .
+co:NANAVATI_GT_J rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "NANAVATI G.T. (J)"@en .
+co:GN_J_RAY rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "G.N. (J) RAY"@en .
+co:AK_SARKAR rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "A.K. SARKAR"@en .
+co:S_J_MOHAN rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "S. (J) MOHAN"@en .
+co:MISRA_RANGNATH rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "MISRA RANGNATH"@en .
+co:KULDIP_SINGH_J rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "KULDIP SINGH (J)"@en .
+co:RM_J_SAHAI rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "R.M. (J) SAHAI"@en .
+co:ES_J_VENKATARAMIAH rdfs:type co:Judge; 
+rdfs:type nyon:Author; 
+nyon:works_in court:sc; 
+a foaf:Person ;
+ 	rdfs:label "E.S. (J) VENKATARAMIAH"@en .
+party:GORDHAN_DAS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "GORDHAN DAS"@en .
+party:HEIRS_OF_VRAJLAL_J_GANATRA rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "HEIRS OF VRAJLAL J. GANATRA"@en .
+party:RAGHBIR_SINGH rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "RAGHBIR SINGH"@en .
+party:PUNJAB_STATE_ELECTRICITY_BOARD rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "PUNJAB STATE ELECTRICITY BOARD"@en .
+party:JAGANNATHAM__BROS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "JAGANNATHAM & BROS."@en .
+party:KEWAL_KRISHAN rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "KEWAL KRISHAN"@en .
+party:THE_DEPUTY_COMMISSIONER_ANDAMAN_DISTRICT_PORT_BLAIR rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "THE DEPUTY COMMISSIONER, ANDAMAN DISTRICT, PORT BLAIR."@en .
+party:MRS_MANORAMA_S_MASUREKAR rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "MRS. MANORAMA S. MASUREKAR"@en .
+party:UP_State_Road_Transport_Corporation rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "U.P. State Road Transport Corporation"@en .
+party:Seenivasan rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "Seenivasan"@en .
+party:AELTEMESH_REIN rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "AELTEMESH REIN"@en .
+party:MS_LML_LIMITED rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "M/S L.M.L. LIMITED"@en .
+party:COMMISSIONER_OF_EXCESS_PROFITS_TAX_WEST_BENGAL rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "COMMISSIONER OF EXCESS PROFITS TAX WEST BENGAL"@en .
+party:THAKUR_PRATAP_SINGH rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "THAKUR PRATAP SINGH"@en .
+party:FB_TARAPORAWALA_AND_OTHERS_ETCETC rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "F.B. TARAPORAWALA AND OTHERS ETC.ETC."@en .
+party:ABDUL_FAZAL_SIDDIQUI rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "ABDUL FAZAL SIDDIQUI"@en .
+party:Mukesh_Tikaji_Bora rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "Mukesh Tikaji Bora"@en .
+party:SATISH_CHANDRA_ANAND rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "SATISH CHANDRA ANAND"@en .
+party:CALCUTTA_MUNICIPAL_CORPORATION__ANR rdfs:type nyon:Petitioner; 
+nyon:PartType schema:Orgaization;
+a foaf:Person ;
+ 	rdfs:label "CALCUTTA MUNICIPAL CORPORATION & ANR."@en .
+party:SARDAR_INDRA_SINGH_AND_SONS_LTD rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "SARDAR INDRA SINGH AND SONS LTD."@en .
+party:VENKATASWAMAPPA rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "VENKATASWAMAPPA"@en .
+party:The_Maharashtra_State_Electricity_Distribution_Co_Ltd rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "The Maharashtra State Electricity Distribution Co. Ltd"@en .
+party:MUNICIPAL_CORPORATION_OF_GREATER_BOMBAY rdfs:type nyon:Petitioner; 
+nyon:PartType schema:Orgaization;
+a foaf:Person ;
+ 	rdfs:label "MUNICIPAL CORPORATION OF GREATER BOMBAY"@en .
+party:UNION_OF_INDIA_AND_ORS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "UNION OF INDIA AND ORS."@en .
+party:THE_RT_REV_BP_SUGANDHARBISHOP_IN_MEDAK rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "THE RT. REV. B.P. SUGANDHARBISHOP IN MEDAK"@en .
+party:THE_STATE_OF_BOMBAY rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "THE STATE OF BOMBAY"@en .
+party:LL_SUDHAKAR_REDDY_AND_ORS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "L.L. SUDHAKAR REDDY AND ORS."@en .
+party:SUKHRAM__ANOTHER rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "SUKHRAM & ANOTHER"@en .
+party:CHERUMANALIL_LAKSHMI_AND_ORS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "CHERUMANALIL LAKSHMI AND ORS."@en .
+party:NAHAR_SINGH rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "NAHAR SINGH"@en .
+party:KT_Varghese__Ors rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "K.T. Varghese & Ors"@en .
+party:Shankar_Ragho_Bhagane rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "Shankar Ragho Bhagane"@en .
+party:Punjab_State_Electricity_Board_and_Anr rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "Punjab State Electricity Board and Anr"@en .
+party:B_SHANKRANAND rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "B. SHANKRANAND"@en .
+party:COSTAO_FERNANDES rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "COSTAO FERNANDES"@en .
+party:BHAGWANDAS_GANGASAHAI rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "BHAGWANDAS GANGASAHAI"@en .
+party:THE_AMALGAMATED_ELECTRICITY_CO_LTD rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "THE AMALGAMATED ELECTRICITY CO., LTD."@en .
+party:Ran_Singh_and_Anr rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "Ran Singh and Anr."@en .
+party:THE_STATE_OF_PUNJAB__ORS rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "THE STATE OF PUNJAB & ORS."@en .
+party:GYAN_CHAND rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "GYAN CHAND"@en .
+party:PANTY__COMPANY_PVT_LTD rdfs:type nyon:Petitioner; 
+nyon:PartType schema:Orgaization;
+a foaf:Person ;
+ 	rdfs:label "PANTY & COMPANY PVT. LTD."@en .
+party:N_NAGARAJA_ETC rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "N. NAGARAJA ETC."@en .
+party:L_CHANDRA_KUMAR rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "L. CHANDRA KUMAR"@en .
+party:YB_PATIL_AND_ORS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "Y.B. PATIL AND ORS."@en .
+party:PRAKASH_CHAND_SACHDEVA rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "PRAKASH CHAND SACHDEVA"@en .
+party:STATE_OF_MAHARASHTRA rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE OF MAHARASHTRA"@en .
+party:C_RADHAKRISHNA_REDDY_AND_ORS rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "C. RADHAKRISHNA REDDY AND ORS."@en .
+party:YOVAN rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "YOVAN"@en .
+party:G_NARAYANASWAMY_REDDY_DEAD_BYLRS_AND_ANR rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "G. NARAYANASWAMY REDDY (DEAD) BYL.RS. AND ANR."@en .
+party:RAM_JETHMALANI_ETC rdfs:type nyon:Petitioner; 
+a foaf:Person ;
+ 	rdfs:label "RAM JETHMALANI, ETC"@en .
+party:PIRKHAN__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "PIRKHAN & ORS."@en .
+party:HAIRS_OF_PARSHOTTAM_S_SHAH rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "HAIRS OF PARSHOTTAM S. SHAH"@en .
+party:SURJIT_SINGH_AND_ORS_ETC_ETC rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "SURJIT SINGH AND ORS. ETC. ETC."@en .
+party:NATIONAL_THERMAL_POWER_CORPORATION_LIMITED__OTHERS rdfs:type nyon:Petitioner; 
+nyon:PartType schema:Orgaization;
+a foaf:Person ;
+ 	rdfs:label "NATIONAL THERMAL POWER CORPORATION LIMITED & OTHERS"@en .
+party:SOWDAMBIGAI_MOTORS_SERVICE rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "SOWDAMBIGAI MOTORS SERVICE"@en .
+party:STATE_OF_PUNJAB rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE OF PUNJAB"@en .
+party:CONSUMER_COOPERATIVE_STORES_LIMITED_HARI_NARAYAN_ARORA rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "CONSUMER CO-OPERATIVE STORES LIMITED., HARI NARAYAN ARORA."@en .
+party:MRS_DHANLAXMI_G_SHAH_AND_ANR rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "MRS. DHANLAXMI G. SHAH AND ANR."@en .
+party:Vinod_Kumar rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Vinod Kumar"@en .
+party:Peter_Jebaraj__Anr rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Peter Jebaraj & Anr"@en .
+party:THE_SUPREME_COURT_OF_INDIA rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "THE SUPREME COURT OF INDIA"@en .
+party:COLLECTOR_OF_CENTRAL_EXCISEKANPUR rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "COLLECTOR OF CENTRAL EXCISEKANPUR"@en .
+party:ADAIR_DUTT__COMPANY_LTD rdfs:type nyon:Petitioner; 
+nyon:PartType schema:Orgaization;
+a foaf:Person ;
+ 	rdfs:label "ADAIR DUTT & COMPANY LTD."@en .
+party:SHRI_KRISHNA_GUPTA__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "SHRI KRISHNA GUPTA & ORS."@en .
+party:BAYER_INDIA_LTD_AND_OTHERS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "BAYER INDIA LTD. AND OTHERS"@en .
+party:FATEHCHAND_HIRAWAT_AND_ANOTHER rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "FATEHCHAND HIRAWAT AND ANOTHER"@en .
+party:Union_of_India__Ors rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Union of India & Ors."@en .
+party:THE_UNION_OF_INDIA rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "THE UNION OF INDIA."@en .
+party:SUJIT_BARAN_MUKHERJEE__ORS_ETC rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "SUJIT BARAN MUKHERJEE & ORS. ETC."@en .
+party:COMMISSIONER_OF_INCOMETAXWEST_BENGAL rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "COMMISSIONER OF INCOME-TAX,WEST BENGAL."@en .
+party:THE_SPECIAL_DEPUTY_COMMISSIONER_REVENUE rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "THE SPECIAL DEPUTY COMMISSIONER (REVENUE)"@en .
+party:Lloyds_Steel_Industries_Ltd rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Lloyds Steel Industries Ltd"@en .
+party:BOMBAY_TYRES_INTERNATIONAL_LTD__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "BOMBAY TYRES INTERNATIONAL LTD. & ORS."@en .
+party:KISHORI_LAL_BABLANI rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "KISHORI LAL BABLANI"@en .
+party:SMT_D_DOROTHY_DAYASHEELAEBENESER rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "SMT. D. DOROTHY DAYASHEELAEBENESER"@en .
+party:MS_RATILAL_VADILAL_AND_BROS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "M/S. RATILAL VADILAL AND BROS."@en .
+party:STATE_OF_AP_AND_ORS rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE OF A.P. AND ORS."@en .
+party:GAURI_SHANKAR__ANR rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "GAURI SHANKAR & ANR."@en .
+party:MULIVIL_KUNNINAMKANDY_NARAYANI_AND_ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "MULIVIL KUNNINAMKANDY NARAYANI AND ORS."@en .
+party:HARNAK_SINGH__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "HARNAK SINGH & ORS."@en .
+party:State_of_Kerala__Ors rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "State of Kerala & Ors"@en .
+party:State_of_Maharashtra rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "State of Maharashtra"@en .
+party:Sudesh_Kumar_Puri rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Sudesh Kumar Puri"@en .
+party:COMMON_CAUSE__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "COMMON CAUSE & ORS."@en .
+party:STATE_AT_THE_INSTANCE_OFDSP_CBI_BOMBAY rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE AT THE INSTANCE OFD.S.P., CBI, BOMBAY"@en .
+party:UNION_OF_INDIA__ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "UNION OF INDIA & ORS."@en .
+party:N_S_BATHENA rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "N. S. BATHENA"@en .
+party:State_of_Haryana_and_Anr rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "State of Haryana and Anr."@en .
+party:NARAJAN_DASS_DOOMRA_RICE__GEN_MILLS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "NARAJAN DASS DOOMRA RICE & GEN. MILLS"@en .
+party:DUNDOO_BALKRISHNAM_BOMBAY rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "DUNDOO BALKRISHNAM BOMBAY"@en .
+party:VASANT_K_GUDODAGI_AND_ORS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "VASANT K. GUDODAGI AND ORS."@en .
+party:UNION_OF_INDIA_AND_OTHERS rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "UNION OF INDIA AND OTHERS"@en .
+party:YL_PATIL rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "Y.L. PATIL"@en .
+party:STATE rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE"@en .
+party:MAHARAU_SRAWAN_HATKAR rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "MAHARAU SRAWAN HATKAR"@en .
+party:STATE_OF_ANDHRA_PRADESH_AND_ORS rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "STATE OF ANDHRA PRADESH AND ORS."@en .
+party:MANAGEMENT_OF_INDIA_CEMENTS_LTD rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "MANAGEMENT OF INDIA CEMENTS LTD."@en .
+party:GOVT_OF_KARNATAKA_AND_ANR rdfs:type nyon:Petitioner; 
+nyon:PartType schema:State; 
+a foaf:Person ;
+ 	rdfs:label "GOVT. OF KARNATAKA AND ANR."@en .
+party:UNION_OF_INDIA_ETC rdfs:type nyon:Respondent; 
+a foaf:Person ;
+ 	rdfs:label "UNION OF INDIA, ETC."@en .
+
+case:200111KS1SC a nyon:Case;
+nyon:hasCaseName  "GORDHAN DAS VS. PIRKHAN & ORS.  on 27/11/2001"@en;
+nyon:hasDate "27/11/2001";
+nyon:hasYear "2001";
+nyon:hasMonth "11";
+nyon:hasAppealNo "Appeal No.219 of 1975";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 4391 of 1990";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:GORDHAN_DAS, party:PIRKHAN__ORS;
+nyon:hasCourtOfficial co:Syed_Shah_Mohammed_Quadri,co:SN_Phukan;
+.
+case:199604KS1SC a nyon:Case;
+nyon:hasCaseName  "HEIRS OF VRAJLAL J. GANATRA VS. HAIRS OF PARSHOTTAM S. SHAH  on 30/04/1996"@en;
+nyon:hasDate "30/04/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "04";
+nyon:hasAuthor co:THOMAS_KT_J;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:HEIRS_OF_VRAJLAL_J_GANATRA, party:HAIRS_OF_PARSHOTTAM_S_SHAH;
+nyon:hasCourtOfficial co:THOMAS_KT__MM_PUNCHHI;
+.
+case:199408KS1SC a nyon:Case;
+nyon:hasCaseName  "RAGHBIR SINGH VS. SURJIT SINGH AND ORS. ETC. ETC.  on 22/08/1994"@en;
+nyon:hasDate "22/08/1994";
+nyon:hasYear "1994";
+nyon:hasMonth "08";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 933 of 1994";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCaseType nyon:Criminal;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:RAGHBIR_SINGH, party:SURJIT_SINGH_AND_ORS_ETC_ETC;
+nyon:hasCourtOfficial co:JS_VERMA,co:KS_PARIPOORNAN;
+.
+case:200110KS1SC a nyon:Case;
+nyon:hasCaseName  "PUNJAB STATE ELECTRICITY BOARD VS. NATIONAL THERMAL POWER CORPORATION LIMITED & OTHERS  on 10/10/2001"@en;
+nyon:hasDate "10/10/2001";
+nyon:hasYear "2001";
+nyon:hasMonth "10";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 7082-7084";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:PUNJAB_STATE_ELECTRICITY_BOARD, party:NATIONAL_THERMAL_POWER_CORPORATION_LIMITED__OTHERS;
+nyon:hasCourtOfficial co:MB_SHAH,co:RP_SETHI;
+.
+case:196305KS1SC a nyon:Case;
+nyon:hasCaseName  "JAGANNATHAM & BROS. VS. SOWDAMBIGAI MOTORS SERVICE  on 08/05/1963"@en;
+nyon:hasDate "08/05/1963";
+nyon:hasYear "1963";
+nyon:hasMonth "05";
+nyon:hasAppealNo "Appeal No. 179 of 1963";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:JAGANNATHAM__BROS, party:SOWDAMBIGAI_MOTORS_SERVICE;
+nyon:hasCourtOfficial co:;
+.
+case:196203KS1SC a nyon:Case;
+nyon:hasCaseName  "KEWAL KRISHAN VS. STATE OF PUNJAB  on 06/03/1962"@en;
+nyon:hasDate "06/03/1962";
+nyon:hasYear "1962";
+nyon:hasMonth "03";
+nyon:hasAppealNo "Appeal No. 126 of 1959";
+nyon:hasCaseType nyon:Criminal;
+nyon:hasAuthor co:JL_KAPUR;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:KEWAL_KRISHAN, party:STATE_OF_PUNJAB;
+nyon:hasCourtOfficial co:JL_KAPUR,co:PB_GAJENDRAGADKAR,co:TL_VENKATARAMA_AIYYAR;
+.
+case:199812KS1SC a nyon:Case;
+nyon:hasCaseName  "THE DEPUTY COMMISSIONER, ANDAMAN DISTRICT, PORT BLAIR. VS. CONSUMER CO-OPERATIVE STORES LIMITED., HARI NARAYAN ARORA.  on 09/12/1998"@en;
+nyon:hasDate "09/12/1998";
+nyon:hasYear "1998";
+nyon:hasMonth "12";
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:THE_DEPUTY_COMMISSIONER_ANDAMAN_DISTRICT_PORT_BLAIR, party:CONSUMER_COOPERATIVE_STORES_LIMITED_HARI_NARAYAN_ARORA;
+nyon:hasCourtOfficial co:SUJATA_V_MANOHAR,co:GB_PATTANAIK;
+.
+case:196608KS1SC a nyon:Case;
+nyon:hasCaseName  "MRS. MANORAMA S. MASUREKAR VS. MRS. DHANLAXMI G. SHAH AND ANR.  on 23/08/1966"@en;
+nyon:hasDate "23/08/1966";
+nyon:hasYear "1966";
+nyon:hasMonth "08";
+nyon:hasAppealNo "Appeal No. 469 of 1966";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:RS_BACHAWAT;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:MRS_MANORAMA_S_MASUREKAR, party:MRS_DHANLAXMI_G_SHAH_AND_ANR;
+nyon:hasCourtOfficial co:RS_BACHAWAT,co:KN_WANCHOO,co:JC_SHAH;
+.
+case:200712KS1SC a nyon:Case;
+nyon:hasCaseName  "U.P. State Road Transport Corporation VS. Vinod Kumar  on 06/12/2007"@en;
+nyon:hasDate "06/12/2007";
+nyon:hasYear "2007";
+nyon:hasMonth "12";
+nyon:hasAppealNo "APPEAL NO 5660 OF 2007";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 5660 of 2007";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:UP_State_Road_Transport_Corporation, party:Vinod_Kumar;
+nyon:hasCourtOfficial co:ASHOK_BHAN,co:DK_JAIN;
+.
+case:200804KS1SC a nyon:Case;
+nyon:hasCaseName  "Seenivasan VS. Peter Jebaraj & Anr  on 04/04/2008"@en;
+nyon:hasDate "04/04/2008";
+nyon:hasYear "2008";
+nyon:hasMonth "04";
+nyon:hasAppealNo "APPEAL NO. 854 OF 2001";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 854 of 2001";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:Seenivasan, party:Peter_Jebaraj__Anr;
+nyon:hasCourtOfficial co:DR_ARIJIT_PASAYAT,co:P_SATHASIVAM;
+.
+case:200109KS1SC a nyon:Case;
+nyon:hasCaseName  "AELTEMESH REIN VS. THE SUPREME COURT OF INDIA  on 03/09/2001"@en;
+nyon:hasDate "03/09/2001";
+nyon:hasYear "2001";
+nyon:hasMonth "09";
+nyon:hasCaseNo "CASE NO.: Writ Petition (civil) 99 of 2000";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:AELTEMESH_REIN, party:THE_SUPREME_COURT_OF_INDIA;
+nyon:hasCourtOfficial co:Doraiswamy_Raju_Babu;
+.
+case:199708KS1SC a nyon:Case;
+nyon:hasCaseName  "M/S L.M.L. LIMITED VS. COLLECTOR OF CENTRAL EXCISEKANPUR  on 21/08/1997"@en;
+nyon:hasDate "21/08/1997";
+nyon:hasYear "1997";
+nyon:hasMonth "08";
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:MS_LML_LIMITED, party:COLLECTOR_OF_CENTRAL_EXCISEKANPUR;
+nyon:hasCourtOfficial co:J_S_VERMA,co:B_N_KIRPAL;
+.
+case:195410KS1SC a nyon:Case;
+nyon:hasCaseName  "COMMISSIONER OF EXCESS PROFITS TAX WEST BENGAL VS. ADAIR DUTT & COMPANY LTD.  on 29/10/1954"@en;
+nyon:hasDate "29/10/1954";
+nyon:hasYear "1954";
+nyon:hasMonth "10";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 60 of 1953";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:COMMISSIONER_OF_EXCESS_PROFITS_TAX_WEST_BENGAL, party:ADAIR_DUTT__COMPANY_LTD;
+nyon:hasCourtOfficial co:MC_MAHAJAN,co:SR_DAS,co:G_HASAN,co:NH_BHAGWATI,co:TLV_AIYYAR,co:;
+.
+case:195212KS1SC a nyon:Case;
+nyon:hasCaseName  "THAKUR PRATAP SINGH VS. SHRI KRISHNA GUPTA & ORS.  on 02/12/1952"@en;
+nyon:hasDate "02/12/1952";
+nyon:hasYear "1952";
+nyon:hasMonth "12";
+nyon:hasAppealNo "Appeal No. 294 of 1955";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 294 of 1955";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:THAKUR_PRATAP_SINGH, party:SHRI_KRISHNA_GUPTA__ORS;
+nyon:hasCourtOfficial co:SR_DAS,co:V_BOSE,co:NH_BHAGWATI,co:B_JAGANNADHADAS,co:BP_SINHA;
+.
+case:199609KS1SC a nyon:Case;
+nyon:hasCaseName  "F.B. TARAPORAWALA AND OTHERS ETC.ETC. VS. BAYER INDIA LTD. AND OTHERS  on 09/09/1996"@en;
+nyon:hasDate "09/09/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "09";
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:FB_TARAPORAWALA_AND_OTHERS_ETCETC, party:BAYER_INDIA_LTD_AND_OTHERS;
+nyon:hasCourtOfficial co:KULDIP_SINGH,co:BL_HANSARIA;
+.
+case:199608KS1SC a nyon:Case;
+nyon:hasCaseName  "ABDUL FAZAL SIDDIQUI VS. FATEHCHAND HIRAWAT AND ANOTHER  on 20/08/1996"@en;
+nyon:hasDate "20/08/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "08";
+nyon:hasAuthor co:AS_J_ANAND;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:ABDUL_FAZAL_SIDDIQUI, party:FATEHCHAND_HIRAWAT_AND_ANOTHER;
+nyon:hasCourtOfficial co:AS__THOMAS_KT__ANAND;
+.
+case:200704KS1SC a nyon:Case;
+nyon:hasCaseName  "Mukesh Tikaji Bora VS. Union of India & Ors.  on 11/04/2007"@en;
+nyon:hasDate "11/04/2007";
+nyon:hasYear "2007";
+nyon:hasMonth "04";
+nyon:hasAppealNo "APPEAL NO. 533 OF 2007";
+nyon:hasCaseNo "CASE NO.: Appeal (crl.) 533 of 2007";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCaseType nyon:Criminal;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:Mukesh_Tikaji_Bora, party:Union_of_India__Ors;
+nyon:hasCourtOfficial co:Dr_ARIJIT_PASAYAT,co:SH_KAPADIA;
+.
+case:195303KS1SC a nyon:Case;
+nyon:hasCaseName  "SATISH CHANDRA ANAND VS. THE UNION OF INDIA.  on 13/03/1953"@en;
+nyon:hasDate "13/03/1953";
+nyon:hasYear "1953";
+nyon:hasMonth "03";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:VIVIAN_BOSE;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:SATISH_CHANDRA_ANAND, party:THE_UNION_OF_INDIA;
+nyon:hasCourtOfficial co:VIVIAN_BOSE,co:GHULAM_HASAN;
+.
+case:199702KS1SC a nyon:Case;
+nyon:hasCaseName  "CALCUTTA MUNICIPAL CORPORATION & ANR. VS. SUJIT BARAN MUKHERJEE & ORS. ETC.  on 14/02/1997"@en;
+nyon:hasDate "14/02/1997";
+nyon:hasYear "1997";
+nyon:hasMonth "02";
+nyon:hasAppealNo "APPEAL NOS. 1550-1552";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:CALCUTTA_MUNICIPAL_CORPORATION__ANR, party:SUJIT_BARAN_MUKHERJEE__ORS_ETC;
+nyon:hasCourtOfficial co:K_RAMASWAMY,co:S_SAGHIR_AHMAD;
+.
+case:195309KS1SC a nyon:Case;
+nyon:hasCaseName  "SARDAR INDRA SINGH AND SONS LTD. VS. COMMISSIONER OF INCOME-TAX,WEST BENGAL.  on 23/09/1953"@en;
+nyon:hasDate "23/09/1953";
+nyon:hasYear "1953";
+nyon:hasMonth "09";
+nyon:hasAppealNo "Appeal No. 40 of 1952";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:M_PATANJALI_CJ_SASTRI;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:SARDAR_INDRA_SINGH_AND_SONS_LTD, party:COMMISSIONER_OF_INCOMETAXWEST_BENGAL;
+nyon:hasCourtOfficial co:SUDHI_RANJAN_DAS,co:VIVIAN_BOSE,co:GHULAM_HASAN;
+.
+case:199608KS2SC a nyon:Case;
+nyon:hasCaseName  "VENKATASWAMAPPA VS. THE SPECIAL DEPUTY COMMISSIONER (REVENUE)  on 28/08/1996"@en;
+nyon:hasDate "28/08/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "08";
+nyon:hasAuthor co:K_RAMASWAMY;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:VENKATASWAMAPPA, party:THE_SPECIAL_DEPUTY_COMMISSIONER_REVENUE;
+nyon:hasCourtOfficial co:K_VENKATASWAMI_K__RAMASWAMY;
+.
+case:200708KS1SC a nyon:Case;
+nyon:hasCaseName  "The Maharashtra State Electricity Distribution Co. Ltd VS. Lloyds Steel Industries Ltd  on 14/08/2007"@en;
+nyon:hasDate "14/08/2007";
+nyon:hasYear "2007";
+nyon:hasMonth "08";
+nyon:hasAppealNo "APPEAL NO. 3551 OF 2006";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 3551 of 2006";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:The_Maharashtra_State_Electricity_Distribution_Co_Ltd, party:Lloyds_Steel_Industries_Ltd;
+nyon:hasCourtOfficial co:AKMATHUR,co:MARKANDEY_KATJU;
+.
+case:199803KS1SC a nyon:Case;
+nyon:hasCaseName  "MUNICIPAL CORPORATION OF GREATER BOMBAY VS. BOMBAY TYRES INTERNATIONAL LTD. & ORS.  on 27/03/1998"@en;
+nyon:hasDate "27/03/1998";
+nyon:hasYear "1998";
+nyon:hasMonth "03";
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:MUNICIPAL_CORPORATION_OF_GREATER_BOMBAY, party:BOMBAY_TYRES_INTERNATIONAL_LTD__ORS;
+nyon:hasCourtOfficial co:KT_THOMAS_S_RAJENDRA_BABU;
+.
+case:199812KS2SC a nyon:Case;
+nyon:hasCaseName  "UNION OF INDIA AND ORS. VS. KISHORI LAL BABLANI  on 03/12/1998"@en;
+nyon:hasDate "03/12/1998";
+nyon:hasYear "1998";
+nyon:hasMonth "12";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 1328 of 1995";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:UNION_OF_INDIA_AND_ORS, party:KISHORI_LAL_BABLANI;
+nyon:hasCourtOfficial co:MRS_SUJATA_V_MANOHAR,co:GB_PATTANAIK;
+.
+case:199604KS2SC a nyon:Case;
+nyon:hasCaseName  "THE RT. REV. B.P. SUGANDHARBISHOP IN MEDAK VS. SMT. D. DOROTHY DAYASHEELAEBENESER  on 12/04/1996"@en;
+nyon:hasDate "12/04/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "04";
+nyon:hasAppealNo "Appeal No. 1746 of 1995";
+nyon:hasAuthor co:NANAVATI_GT_J;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:THE_RT_REV_BP_SUGANDHARBISHOP_IN_MEDAK, party:SMT_D_DOROTHY_DAYASHEELAEBENESER;
+nyon:hasCourtOfficial co:NANAVATI_GT__SC__AGRAWAL;
+.
+case:196011KS1SC a nyon:Case;
+nyon:hasCaseName  "THE STATE OF BOMBAY VS. M/S. RATILAL VADILAL AND BROS.  on 15/11/1960"@en;
+nyon:hasDate "15/11/1960";
+nyon:hasYear "1960";
+nyon:hasMonth "11";
+nyon:hasAppealNo "Appeal No. 429 of 1959";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:M_HIDAYATULLAH;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:THE_STATE_OF_BOMBAY, party:MS_RATILAL_VADILAL_AND_BROS;
+nyon:hasCourtOfficial co:M_HIDAYATULLAH,co:JL_KAPUR,co:JC_SHAH;
+.
+case:200108KS1SC a nyon:Case;
+nyon:hasCaseName  "L.L. SUDHAKAR REDDY AND ORS. VS. STATE OF A.P. AND ORS.  on 09/08/2001"@en;
+nyon:hasDate "09/08/2001";
+nyon:hasYear "2001";
+nyon:hasMonth "08";
+nyon:hasAppealNo "Appeal No. 680/1992";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 6731 of 1994";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:LL_SUDHAKAR_REDDY_AND_ORS, party:STATE_OF_AP_AND_ORS;
+nyon:hasCourtOfficial co:SYED_SHAH_MOHAMMED_QUADRI,co:SN_PHUKAN;
+.
+case:196709KS1SC a nyon:Case;
+nyon:hasCaseName  "SUKHRAM & ANOTHER VS. GAURI SHANKAR & ANR.  on 11/09/1967"@en;
+nyon:hasDate "11/09/1967";
+nyon:hasYear "1967";
+nyon:hasMonth "09";
+nyon:hasAppealNo "Appeal No. 21 of 1965";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:JC_SHAH;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:SUKHRAM__ANOTHER, party:GAURI_SHANKAR__ANR;
+nyon:hasCourtOfficial co:JC_SHAH,co:SM_SIKRI,co:JM_SHELAT;
+.
+case:196609KS1SC a nyon:Case;
+nyon:hasCaseName  "CHERUMANALIL LAKSHMI AND ORS. VS. MULIVIL KUNNINAMKANDY NARAYANI AND ORS.  on 12/09/1966"@en;
+nyon:hasDate "12/09/1966";
+nyon:hasYear "1966";
+nyon:hasMonth "09";
+nyon:hasAppealNo "Appeal No. 567 of 1964";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:RS_BACHAWAT;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:CHERUMANALIL_LAKSHMI_AND_ORS, party:MULIVIL_KUNNINAMKANDY_NARAYANI_AND_ORS;
+nyon:hasCourtOfficial co:RS_BACHAWAT,co:KN_WANCHOO,co:JC_SHAH;
+.
+case:199610KS1SC a nyon:Case;
+nyon:hasCaseName  "NAHAR SINGH VS. HARNAK SINGH & ORS.  on 29/10/1996"@en;
+nyon:hasDate "29/10/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "10";
+nyon:hasAppealNo "Appeal No. 220 of 1995";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:NAHAR_SINGH, party:HARNAK_SINGH__ORS;
+nyon:hasCourtOfficial co:K_RAMASWAMY,co:GB_PATTANAIK;
+.
+case:200801KS1SC a nyon:Case;
+nyon:hasCaseName  "K.T. Varghese & Ors VS. State of Kerala & Ors  on 24/01/2008"@en;
+nyon:hasDate "24/01/2008";
+nyon:hasYear "2008";
+nyon:hasMonth "01";
+nyon:hasAppealNo "Appeal No.547/1998";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 6456 of 2001";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:KT_Varghese__Ors, party:State_of_Kerala__Ors;
+nyon:hasCourtOfficial co:Dr_ARIJIT_PASAYAT,co:LOKESHWAR_SINGH_PANTA,co:P_SATHASIVAM;
+.
+case:200803KS1SC a nyon:Case;
+nyon:hasCaseName  "Shankar Ragho Bhagane VS. State of Maharashtra  on 04/03/2008"@en;
+nyon:hasDate "04/03/2008";
+nyon:hasYear "2008";
+nyon:hasMonth "03";
+nyon:hasAppealNo "APPEAL NO. 439 OF 2008";
+nyon:hasCaseNo "CASE NO.: Appeal (crl.) 439 of 2008";
+nyon:hasCaseType nyon:Criminal;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:Shankar_Ragho_Bhagane, party:State_of_Maharashtra;
+nyon:hasCourtOfficial co:Dr_ARIJIT_PASAYAT,co:P_SATHASIVAM;
+.
+case:200702KS1SC a nyon:Case;
+nyon:hasCaseName  "Punjab State Electricity Board and Anr VS. Sudesh Kumar Puri  on 09/02/2007"@en;
+nyon:hasDate "09/02/2007";
+nyon:hasYear "2007";
+nyon:hasMonth "02";
+nyon:hasCaseNo "CASE NO.: Appeal (civil) 648 of 2007";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:Punjab_State_Electricity_Board_and_Anr, party:Sudesh_Kumar_Puri;
+nyon:hasCourtOfficial co:Dr_ARIJIT_PASAYAT,co:TARUN_CHATTERJEE;
+.
+case:199603KS1SC a nyon:Case;
+nyon:hasCaseName  "B. SHANKRANAND VS. COMMON CAUSE & ORS.  on 11/03/1996"@en;
+nyon:hasDate "11/03/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "03";
+nyon:hasAuthor co:K_RAMASWAMY;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:B_SHANKRANAND, party:COMMON_CAUSE__ORS;
+nyon:hasCourtOfficial co:K_GB_PATTANAIK__RAMASWAMY;
+.
+case:199602KS1SC a nyon:Case;
+nyon:hasCaseName  "COSTAO FERNANDES VS. STATE AT THE INSTANCE OFD.S.P., CBI, BOMBAY  on 20/02/1996"@en;
+nyon:hasDate "20/02/1996";
+nyon:hasYear "1996";
+nyon:hasMonth "02";
+nyon:hasCaseType nyon:Criminal;
+nyon:hasAuthor co:GN_J_RAY;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:COSTAO_FERNANDES, party:STATE_AT_THE_INSTANCE_OFDSP_CBI_BOMBAY;
+nyon:hasCourtOfficial co:GN__HANSARIA_BL__RAY;
+.
+case:195510KS1SC a nyon:Case;
+nyon:hasCaseName  "BHAGWANDAS GANGASAHAI VS. UNION OF INDIA & ORS.  on 11/10/1955"@en;
+nyon:hasDate "11/10/1955";
+nyon:hasYear "1955";
+nyon:hasMonth "10";
+nyon:hasCaseNo "CASE NO.: Writ Petition (civil) 676 of 1954";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:BHAGWANDAS_GANGASAHAI, party:UNION_OF_INDIA__ORS;
+nyon:hasCourtOfficial co:SR_DAS,co:V_BOSE,co:B_JAGANNADHADAS,co:SJ_IMAM,co:NC_AIYAR;
+.
+case:195902KS1SC a nyon:Case;
+nyon:hasCaseName  "THE AMALGAMATED ELECTRICITY CO., LTD. VS. N. S. BATHENA  on 13/02/1959"@en;
+nyon:hasDate "13/02/1959";
+nyon:hasYear "1959";
+nyon:hasMonth "02";
+nyon:hasAppealNo "Appeal No. 361 of 1958";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:AK_SARKAR;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:THE_AMALGAMATED_ELECTRICITY_CO_LTD, party:N_S_BATHENA;
+nyon:hasCourtOfficial co:SYED_JAFFER_IMAM;
+.
+case:200801KS2SC a nyon:Case;
+nyon:hasCaseName  "Ran Singh and Anr. VS. State of Haryana and Anr.  on 30/01/2008"@en;
+nyon:hasDate "30/01/2008";
+nyon:hasYear "2008";
+nyon:hasMonth "01";
+nyon:hasCaseNo "CASE NO.: Appeal (crl.) 222 of 2008";
+nyon:hasCaseType nyon:Criminal;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:Ran_Singh_and_Anr, party:State_of_Haryana_and_Anr;
+nyon:hasCourtOfficial co:Dr_ARIJIT_PASAYAT,co:P_SATHASIVAM;
+.
+case:199711KS1SC a nyon:Case;
+nyon:hasCaseName  "THE STATE OF PUNJAB & ORS. VS. NARAJAN DASS DOOMRA RICE & GEN. MILLS  on 25/11/1997"@en;
+nyon:hasDate "25/11/1997";
+nyon:hasYear "1997";
+nyon:hasMonth "11";
+nyon:hasAppealNo "APPEAL NOS. 1226-43 OF 1992";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:THE_STATE_OF_PUNJAB__ORS, party:NARAJAN_DASS_DOOMRA_RICE__GEN_MILLS;
+nyon:hasCourtOfficial co:SP_BHARUCHA,co:SC_SEN;
+.
+case:199512KS1SC a nyon:Case;
+nyon:hasCaseName  "GYAN CHAND VS. UNION OF INDIA & ORS.  on 04/12/1995"@en;
+nyon:hasDate "04/12/1995";
+nyon:hasYear "1995";
+nyon:hasMonth "12";
+nyon:hasAuthor co:K_RAMASWAMY;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:GYAN_CHAND, party:UNION_OF_INDIA__ORS;
+nyon:hasCourtOfficial co:K_RAMASWAMY,co:KS_PARIPOORNAN;
+.
+case:199404KS1SC a nyon:Case;
+nyon:hasCaseName  "PANTY & COMPANY PVT. LTD. VS. DUNDOO BALKRISHNAM BOMBAY  on 05/04/1994"@en;
+nyon:hasDate "05/04/1994";
+nyon:hasYear "1994";
+nyon:hasMonth "04";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:S_J_MOHAN;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:PANTY__COMPANY_PVT_LTD, party:DUNDOO_BALKRISHNAM_BOMBAY;
+nyon:hasCourtOfficial co:S__MUKHERJEE_MK__MOHAN;
+.
+case:199004KS1SC a nyon:Case;
+nyon:hasCaseName  "N. NAGARAJA ETC. VS. VASANT K. GUDODAGI AND ORS.  on 24/04/1990"@en;
+nyon:hasDate "24/04/1990";
+nyon:hasYear "1990";
+nyon:hasMonth "04";
+nyon:hasAppealNo "Appeal Nos.977 & 978 of 1988";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:MISRA_RANGNATH;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:N_NAGARAJA_ETC, party:VASANT_K_GUDODAGI_AND_ORS;
+nyon:hasCourtOfficial co:MISRA_RANGNATH_K_RAMASWAMY;
+.
+case:199412KS1SC a nyon:Case;
+nyon:hasCaseName  "L. CHANDRA KUMAR VS. UNION OF INDIA AND OTHERS  on 02/12/1994"@en;
+nyon:hasDate "02/12/1994";
+nyon:hasYear "1994";
+nyon:hasMonth "12";
+nyon:hasAuthor co:KULDIP_SINGH_J;
+nyon:hasCourt co:sc;
+nyon:hasParty party:L_CHANDRA_KUMAR, party:UNION_OF_INDIA_AND_OTHERS;
+nyon:hasCourtOfficial co:KULDIP_SINGH__HANSARIA_BL__MAJMUDAR_SB;
+.
+case:197608KS1SC a nyon:Case;
+nyon:hasCaseName  "Y.B. PATIL AND ORS. VS. Y.L. PATIL  on 23/08/1976"@en;
+nyon:hasDate "23/08/1976";
+nyon:hasYear "1976";
+nyon:hasMonth "08";
+nyon:hasAppealNo "Appeal No. 1298 of 1968";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:HANS_RAJ_KHANNA;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:YB_PATIL_AND_ORS, party:YL_PATIL;
+nyon:hasCourtOfficial co:HANS_RAJ_KHANNA,co:JASWANT_SINGH;
+.
+case:199312KS1SC a nyon:Case;
+nyon:hasCaseName  "PRAKASH CHAND SACHDEVA VS. STATE  on 14/12/1993"@en;
+nyon:hasDate "14/12/1993";
+nyon:hasYear "1993";
+nyon:hasMonth "12";
+nyon:hasCaseType nyon:Civil;
+nyon:hasCaseType nyon:Criminal;
+nyon:hasAuthor co:RM_J_SAHAI;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:PRAKASH_CHAND_SACHDEVA, party:STATE;
+nyon:hasCourtOfficial co:RM__SAHAI,co:SR__PANDIAN;
+.
+case:199502KS1SC a nyon:Case;
+nyon:hasCaseName  "STATE OF MAHARASHTRA VS. MAHARAU SRAWAN HATKAR  on 21/02/1995"@en;
+nyon:hasDate "21/02/1995";
+nyon:hasYear "1995";
+nyon:hasMonth "02";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:K_RAMASWAMY;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:STATE_OF_MAHARASHTRA, party:MAHARAU_SRAWAN_HATKAR;
+nyon:hasCourtOfficial co:K_HANSARIA_BL__RAMASWAMY;
+.
+case:198911KS1SC a nyon:Case;
+nyon:hasCaseName  "C. RADHAKRISHNA REDDY AND ORS. VS. STATE OF ANDHRA PRADESH AND ORS.  on 10/11/1989"@en;
+nyon:hasDate "10/11/1989";
+nyon:hasYear "1989";
+nyon:hasMonth "11";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:MISRA_RANGNATH;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:C_RADHAKRISHNA_REDDY_AND_ORS, party:STATE_OF_ANDHRA_PRADESH_AND_ORS;
+nyon:hasCourtOfficial co:MISRA_RANGNATH_GL__OZA;
+.
+case:199310KS1SC a nyon:Case;
+nyon:hasCaseName  "YOVAN VS. MANAGEMENT OF INDIA CEMENTS LTD.  on 15/10/1993"@en;
+nyon:hasDate "15/10/1993";
+nyon:hasYear "1993";
+nyon:hasMonth "10";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:S_J_MOHAN;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:YOVAN, party:MANAGEMENT_OF_INDIA_CEMENTS_LTD;
+nyon:hasCourtOfficial co:S__MOHAN,co:MN_VENKATACHALLIAH;
+.
+case:199104KS1SC a nyon:Case;
+nyon:hasCaseName  "G. NARAYANASWAMY REDDY (DEAD) BYL.RS. AND ANR. VS. GOVT. OF KARNATAKA AND ANR.  on 29/04/1991"@en;
+nyon:hasDate "29/04/1991";
+nyon:hasYear "1991";
+nyon:hasMonth "04";
+nyon:hasCaseType nyon:Civil;
+nyon:hasAuthor co:MH_KANIA;
+nyon:hasCourt co:sc;
+nyon:hasJurisdiction juri:Appellant_Jurisdiction;
+nyon:hasCourtDecision decision:rej;
+nyon:hasParty party:G_NARAYANASWAMY_REDDY_DEAD_BYLRS_AND_ANR, party:GOVT_OF_KARNATAKA_AND_ANR;
+nyon:hasCourtOfficial co:MH_KANIA,co:JAGDISH_SARAN__VERMA,co:V__II_RAMASWAMI;
+.
+case:198406KS1SC a nyon:Case;
+nyon:hasCaseName  "RAM JETHMALANI, ETC VS. UNION OF INDIA, ETC.  on 19/06/1984"@en;
+nyon:hasDate "19/06/1984";
+nyon:hasYear "1984";
+nyon:hasMonth "06";
+nyon:hasCaseType nyon:Criminal;
+nyon:hasAuthor co:ES_J_VENKATARAMIAH;
+nyon:hasCourt co:sc;
+nyon:hasCourtDecision decision:acc;
+nyon:hasParty party:RAM_JETHMALANI_ETC, party:UNION_OF_INDIA_ETC;
+nyon:hasCourtOfficial co:ES__VENKATARAMIAH;
+.

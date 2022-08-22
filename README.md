@@ -2,7 +2,7 @@
 # An Indian Court Decision Annotated Corpus and Knowledge Graph Construction
 
 An annotated Indian Court Decision Document Corpus consisting of 
-16 coarse-grained classes and 41 fine-grained classes as a 
+10 coarse-grained classes and 30 fine-grained classes as a 
 benchmark dataset for constructing the knowledge graph. 
 Indian Court Case Documents’ knowledge graph constructed by 
 utilizing a rule-based approach for Named Entity Recognition (NER) 
@@ -31,6 +31,14 @@ format, namely BILOU ((B-Beginning, I-Internal, L-Last, O-outside,U-Unit),
 IOB (I-Inside, O-Outside, B-Beginning) and IOBES (I-Inside, O-Outside, B-
 Beginning, E-End, S-Single). The dataset is published using FigShare with CC by 4.0 licence with the DOI:
 https://doi.org/10.6084/m9.figshare.19719088
+
+To corroborate the domain-specific tags, two semantic classes were defined; namely, coarse-grained
+class and fine-grained class, each consisting of 10 and 30 attributes respectively.
+Coarse-grained are the more general semantic classes for the legal domain, which
+include the classes Court, Party, CourtDecision, Document, Jurisdiction, Location,
+CaseType, Author, CourtOfficial, and DateOfJudgment.
+![Coarse Grained and Fine Grained Classes](https://github.com/semintelligence/KING/blob/main/pre-processing/classes.PNG "classes")
+
 ## Knowledge Graph Construction
 The two major steps for the construction of the knowledge graph are Named
 Entity Recognition (NER) and Relation Extraction (RE). Various legal entities
@@ -41,26 +49,27 @@ The entity extraction is substantially carried out with the help of regular
 expressions and triggering target words. Examples of rules used to extract the entities "JURISDICTION" and "LOCATION" are given below.
 ```python
 #JURISDICTION
-jur = re.search(r"(\w+\W+){1}(JURISDICTION)", contents)
-if jur:
-    outf.write("JURISDICTION - "+jur.group(0)+"\n")
+    jur = re. search (r"(\w+\W+) {1}( JURISDICTION )", contents )
+    if jur:
+    data . append (" JURISDICTION $ "+jur . group (0)+"")
 
 #LOCATION
-loc = re.search('(\w{4,}) (High Court)', contents)
-if loc:
-    if ((loc.group(1)).lower()=='pradesh'):
-        loc = re.search('(\w{4,}) (Pradesh)', contents,re.IGNORECASE)
-        outf.write("LOCATION - "+loc.group()+"\n")
-    elif ((loc.group(1)).lower()=='kashmir'):
-        outf.write("LOCATION - Jammu and Kashmir"+'\n')
-    elif ((loc.group(1)).lower()=='haryana'):
-        outf.write("LOCATION - Punjab and Haryana"+'\n')
-    else:
-        outf.write("LOCATION - "+loc.group(1)+"\n")
-
+    loc = re. search ('(\w{4 ,}) ( High Court )', contents )
+    if loc:
+    if (( loc. group (1) ). lower () == 'pradesh '):
+    loc = re. search ('(\w{4 ,}) ( Pradesh )', contents ,re.IGNORECASE )
+    data . append (" LOCATION $ "+loc. group ()+"")
+    elif (( loc. group (1)). lower () == ’kashmir '):
+    data . append (" LOCATION $ Jammu and Kashmir "+'')
+    elif (( loc. group (1)). lower () == 'haryana '):
+    data . append (" LOCATION $ Punjab and Haryana "+'')
+    else :
+    data . append (" LOCATION $ "+loc. group (1)+"")
 ```
-The output from the NER phase is stored in a single text file with the token
-and entity separated by the delimiter ’-’.
+An example of the output file from the NER phase for the case "KEWAL KRISHAN VS. STATE OF PUNJAB" dated 06/03/1962 is
+given below.
+![NER Sample Output](https://github.com/semintelligence/KING/blob/main/ner/NER_Sample_Output.PNG "NER_Sample_Output")
+
 
 ### Relation Extraction
 Relation extraction phase identifies the relation between the entities extracted
@@ -71,61 +80,35 @@ the relations between the extracted entities. An example of python rule for extr
 relations is given below.
 
 ```python
-    #CASE_NAME
-    if tok_ent['Entity'][i]=='CASE_NAME':
-        CASENAME=tok_ent['Token'][i]
-    agrument=tok_ent['Entity'][i]
-    match agrument:
+#CASE_NAME
+    if 'FILE_NAME ' in temp :
+        re += '\n'+ tok_ent ['Entity '][i]+ '\n'
+        CASENAME =ids [ index ]
+        re += 'CASE hasCaseId '+ CASENAME +'\n'
+        index +=1
 
-    #JURISDICTION
-    case 'JURISDICTION':
-        if(CASENAME):
-            outf.write(CASENAME+' hasJurisdiction '+tok_ent['Entity'][i]+'\n')
-        else:
-            outf.write('Case hasJurisdiction '+tok_ent['Entity'][i]+'\n')
+#BENCH
+    if 'BENCH ' in temp :
+        re += CASENAME +' hasCourtOfficial Judge '+'\n'
+        str = tok_ent ['Entity '][i]
+        my_list =str. split (",")
+        for x in range (len ( my_list )):
+            re += 'Judge hasName '+ my_list [x]+ '\n'
 ```
+The triples obtained after annotating the entities with the corresponding relation
+for the case "KEWAL KRISHAN VS. STATE OF PUNJAB" dated 06/03/1962
+is given below.
+
+![RE Sample Output](https://github.com/semintelligence/KING/blob/main/re/RE_Sample_output.PNG "RE_Sample_output")
+
+
 ### Triple Construction
+The Triples were formed by annotating the entities obtained from NER with the relations extracted in the RE phase. 
+The output file from the RE phase is passed through a python script to generate the RDF (.ttl) file.
+The constructed triples were stored in a triple store (Apache Jena Fuseki) and visualized using GraphDb.
+The generated RDF corresponding to all the 50 documents is given [here](https://github.com/semintelligence/KING/blob/main/kg_ttl_file/Triples.ttl) and knowledge graph visualized through GraphDb is given below.
 
-The Triples were formed by annotating the entities obtained from NER with the relations exrtracted in the RE phase.
-The constructed triples were stored in a triple store (Apache Jena Fuseki) by manualy converting it to turtle(.ttl) format  and visualized using GraphDb.
-An example of the manualy constructed RDf(.ttl) file and knowledge graph visualized through GraphDb are given below.
-
-```
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix schema: <http://schema.org/> .
-@prefix : <http://example.org/#> .
-
-:Case a schema:Thing ;
-   dc:hasCaseName :case1, :case2 ;
-.
-
-:case2
-          a schema:KT_Varghese_Ors_VS_State_of_Kerala ;
-          rdfs:label "K.T. Varghese & Ors VS. State of Kerala & Ors. on 24/01/2008" ;                                
-          dc:hasParty :case2P1, :case2P2;
- rdfs:hasAppealNo "Appeal No.547/1998";
- rdfs:hasCaseNo "Appeal (civil) 6456 of 2001";
- rdfs:hasCaseType "civil";
- rdfs:hasDate "24/01/2008";
- rdfs:hasAuthor :case2Judge2;
-          rdfs:hasCourtDecision "Appeal is Allowed" ;
-          dc:hasCourtOfficial :case2Judge1, :case2Judge2, :case2Judge3 ;
-         
-.
-
-:case2P1 a schema:Petitioner, foaf:Person ;
-            rdfs:hasName "K.T. Varghese & Ors" ;
-.
-
-:case2P2 a schema:Respondent, foaf:Person ;
-            rdfs:hasName "State of Kerala & Ors" ;
-.
-```
-
-![Knowledge Graph](https://github.com/semintelligence/KING/blob/main/kg%20ttl%20file/kg.jpg "Knowledge Graph visualized through GraphDB")
+![Knowledge Graph](https://github.com/semintelligence/KING/blob/main/kg_ttl_file/Knowledge_Graph.png "Knowledge Graph visualized through GraphDB")
 ## Competency Questions and SPARQL Query
 The triples formed where tested against competency questions with the help of SPARQL queries.
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.

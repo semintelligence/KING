@@ -127,7 +127,7 @@ Query:<br />
 Output:<br />
 ![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)<br />
 
-3. List all the cases under case type 'criminal'.<br /><br />
+3. What is the total number of cases filed under case type 'criminal'?<br /><br />
 Query:<br />
 ![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.PNG "Query 3")<br />
 Output:<br />
@@ -138,6 +138,13 @@ Query:<br />
 ![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.PNG "Query 4")<br />
 Output:<br />
 ![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)<br />
+
+5. What is the total number of cases which were accepted?<br /><br />
+Query:<br />
+![Query 5](https://github.com/semintelligence/KING/blob/main/query/query5.PNG "Query 5")<br />
+Output:<br />
+![Output 5](https://github.com/semintelligence/KING/blob/main/query/output/query5_output.PNG)<br />
+
 ## Acknowledgements
 
  This work is supported by the IHUB-ANUBHUTI-IIITD FOUNDATION set up under the NM-ICPS scheme of the Department of Science and Technology, India.

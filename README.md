@@ -139,7 +139,7 @@ Query:<br />
 Output:<br />
 ![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)<br />
 
-5. What is the total number of cases which were accepted?<br /><br />
+5. What is the total number of cases having the judgement as 'Appeal is accepted'?<br /><br />
 Query:<br />
 ![Query 5](https://github.com/semintelligence/KING/blob/main/query/query5.PNG "Query 5")<br />
 Output:<br />

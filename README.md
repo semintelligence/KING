@@ -116,6 +116,7 @@ The triples formed where tested against competency questions with the help of SP
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.
 
 1. List all the cases from the month of September.
+.
 ![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")
 ![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)
 

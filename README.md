@@ -68,6 +68,7 @@ expressions and triggering target words. Examples of rules used to extract the e
 ```
 An example of the output file from the NER phase for the case "KEWAL KRISHAN VS. STATE OF PUNJAB" dated 06/03/1962 is
 given below.
+
 ![NER Sample Output](https://github.com/semintelligence/KING/blob/main/ner/NER_Sample_Output.PNG "NER_Sample_Output")
 
 

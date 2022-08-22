@@ -115,22 +115,28 @@ The generated RDF corresponding to all the 50 documents is given [here](https://
 The triples formed where tested against competency questions with the help of SPARQL queries.
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.
 
-1. List all the cases from the month of September.<br />
+1. List all the cases from the month of September.<br /><br />
+Query:<br />
 ![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")<br />
+Output:<br />
 ![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)<br />
 
-2. List all the cases filed in the year 1996.<br />
+2. List all the cases filed in the year 1996.<br /><br />
 Query:<br />
 ![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")<br />
 Output:<br />
 ![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)<br />
 
-3. List all the cases under case type 'criminal'.<br />
+3. List all the cases under case type 'criminal'.<br /><br />
+Query:<br />
 ![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.PNG "Query 3")<br />
+Output:<br />
 ![Output 3](https://github.com/semintelligence/KING/blob/main/query/output/query3_output.PNG)<br />
 
-4. List all the cases with Vivian Bose/V. Bose as a judge.<br />
+4. List all the cases with Vivian Bose/V. Bose as a judge.<br /><br />
+Query:<br />
 ![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.PNG "Query 4")<br />
+Output:<br />
 ![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)<br />
 ## Acknowledgements
 

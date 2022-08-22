@@ -115,21 +115,21 @@ The generated RDF corresponding to all the 50 documents is given [here](https://
 The triples formed where tested against competency questions with the help of SPARQL queries.
 Screenshots of the competency questions, corresponnding SPARQL queries and outputs are attached below.
 
-1. List all court officials that come under 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.JPG "Query 1")
-![Output 1](https://github.com/semintelligence/KING/blob/main/output/output1.JPG)
+1. List all the cases from the month of September.
+![Query 1](https://github.com/semintelligence/KING/blob/main/query/query1.PNG "Query 1")
+![Output 1](https://github.com/semintelligence/KING/blob/main/query/output/query1_output.PNG)
 
-2. What is the case number of case 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.JPG "Query 2")
-![Output 2](https://github.com/semintelligence/KING/blob/main/output/output2.JPG)
+2. List all the cases filed in the year 1996.
+![Query 2](https://github.com/semintelligence/KING/blob/main/query/query2.PNG "Query 2")
+![Output 2](https://github.com/semintelligence/KING/blob/main/query/output/query2_output.PNG)
 
-3. Who is the Petitioner of 'K.T. Varghese & Ors VS. State of Kerala & Ors.'?
-![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.JPG "Query 3")
-![Output 3](https://github.com/semintelligence/KING/blob/main/output/output3.JPG)
+3. List all the cases under case type 'criminal'.
+![Query 3](https://github.com/semintelligence/KING/blob/main/query/query3.PNG "Query 3")
+![Output 3](https://github.com/semintelligence/KING/blob/main/query/output/query3_output.PNG)
 
-4. List all the parties that come under case 'K.T. Varghese & Ors VS. State of Kerala & Ors.'
-![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.JPG "Query 4")
-![Output 4](https://github.com/semintelligence/KING/blob/main/output/output4.JPG)
+4. List all the cases with Vivian Bose/V. Bose as a judge.
+![Query 4](https://github.com/semintelligence/KING/blob/main/query/query4.PNG "Query 4")
+![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)
 ## Acknowledgements
 
  This work is supported by the IHUB-ANUBHUTI-IIITD FOUNDATION set up under the NM-ICPS scheme of the Department of Science and Technology, India.

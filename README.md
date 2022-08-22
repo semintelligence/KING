@@ -37,6 +37,7 @@ class and fine-grained class, each consisting of 10 and 30 attributes respective
 Coarse-grained are the more general semantic classes for the legal domain, which
 include the classes Court, Party, CourtDecision, Document, Jurisdiction, Location,
 CaseType, Author, CourtOfficial, and DateOfJudgment.
+
 ![Coarse Grained and Fine Grained Classes](https://github.com/semintelligence/KING/blob/main/pre-processing/classes.PNG "classes")
 
 ## Knowledge Graph Construction

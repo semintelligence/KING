@@ -139,11 +139,41 @@ Query:<br />
 Output:<br />
 ![Output 4](https://github.com/semintelligence/KING/blob/main/query/output/query4_output.PNG)<br />
 
-5. What is the total number of cases having the judgement as 'Appeal is accepted'?<br /><br />
+5. What is the total number of cases having the judgement as appeal is 'Accepted'?<br /><br />
 Query:<br />
 ![Query 5](https://github.com/semintelligence/KING/blob/main/query/query5.PNG "Query 5")<br />
 Output:<br />
 ![Output 5](https://github.com/semintelligence/KING/blob/main/query/output/query5_output.PNG)<br />
+
+6. What is the date of judgement for the case "THE RT. REV. B.P. SUGANDHARBISHOP IN MEDAK VS. SMT. D. DOROTHY DAYASHEELAEBENESER  on 12/04/1996"<br /><br />
+Query:<br />
+![Query 6](https://github.com/semintelligence/KING/blob/main/query/query6.PNG "Query 6")<br />
+Output:<br />
+![Output 6](https://github.com/semintelligence/KING/blob/main/query/output/query6_output.PNG)<br />
+
+7. List all the cases under 'Appellant Jurisdiction'.<br /><br />
+Query:<br />
+![Query 7](https://github.com/semintelligence/KING/blob/main/query/query7.PNG "Query 7")<br />
+Output:<br />
+![Output 7](https://github.com/semintelligence/KING/blob/main/query/output/query7_output.PNG)<br />
+
+8. Name the petitioner of case with "CASE NO.: Appeal (civil) 294 of 1955".<br /><br />
+Query:<br />
+![Query 8](https://github.com/semintelligence/KING/blob/main/query/query8.PNG "Query 8")<br />
+Output:<br />
+![Output 8](https://github.com/semintelligence/KING/blob/main/query/output/query8_output.PNG)<br />
+
+9. List all the cases involving Union of India as one of the parties.<br /><br />
+Query:<br />
+![Query 9](https://github.com/semintelligence/KING/blob/main/query/query9.PNG "Query 9")<br />
+Output:<br />
+![Output 9](https://github.com/semintelligence/KING/blob/main/query/output/query9_output.PNG)<br />
+
+10. How many appeals have been 'rejected' by the judge 'Vivian Bose/V. Bose'. <br /><br />
+Query:<br />
+![Query 10](https://github.com/semintelligence/KING/blob/main/query/query10.PNG "Query 10")<br />
+Output:<br />
+![Output 10](https://github.com/semintelligence/KING/blob/main/query/output/query10_output.PNG)<br />
 
 ## Acknowledgements
 

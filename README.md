@@ -165,13 +165,13 @@ Output:<br />
 
 9. List all the cases involving Union of India as one of the parties.<br /><br />
 Query:<br />
-![Query 9](https://github.com/semintelligence/KING/blob/main/query/query9.PNG "Query 9")<br />
+![Query 9](https://github.com/semintelligence/KING/blob/main/query/query9.png "Query 9")<br />
 Output:<br />
 ![Output 9](https://github.com/semintelligence/KING/blob/main/query/output/query9_output.PNG)<br />
 
 10. How many appeals have been 'rejected' by the judge 'Vivian Bose/V. Bose'. <br /><br />
 Query:<br />
-![Query 10](https://github.com/semintelligence/KING/blob/main/query/query10.PNG "Query 10")<br />
+![Query 10](https://github.com/semintelligence/KING/blob/main/query/query10.png "Query 10")<br />
 Output:<br />
 ![Output 10](https://github.com/semintelligence/KING/blob/main/query/output/query10_output.PNG)<br />
 

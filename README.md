@@ -145,7 +145,7 @@ Query:<br />
 Output:<br />
 ![Output 5](https://github.com/semintelligence/KING/blob/main/query/output/query5_output.PNG)<br />
 
-6. What is the date of judgement for the case "THE RT. REV. B.P. SUGANDHARBISHOP IN MEDAK VS. SMT. D. DOROTHY DAYASHEELAEBENESER  on 12/04/1996"<br /><br />
+6. What is the date of judgement for the case "THE RT. REV. B.P. SUGANDHARBISHOP IN MEDAK VS. SMT. D. DOROTHY DAYASHEELAEBENESER  on 12/04/1996".<br /><br />
 Query:<br />
 ![Query 6](https://github.com/semintelligence/KING/blob/main/query/query6.PNG "Query 6")<br />
 Output:<br />

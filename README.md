@@ -7,6 +7,11 @@ benchmark dataset for constructing the knowledge graph.
 Indian Court Case Documents’ knowledge graph constructed by 
 utilizing a rule-based approach for Named Entity Recognition (NER) 
 and Relation Extraction (RE).
+## URL
+
+- [Kanoon-Sarathi](https://kanoon-sarathi.herokuapp.com/)
+- [Fuseki Control Panel](https://kanoonkg.herokuapp.com/control-panel.tpl)
+
 ## Authors
 
 - [Pariskhit Kamat](https://github.com/parikkamat)
